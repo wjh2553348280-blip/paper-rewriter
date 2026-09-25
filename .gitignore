@@ -1,11 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
+*.so
 *.egg-info/
 dist/
 build/
 
-# Streamlit secrets（不含 API Key 的模板）
+# Secrets and local configuration
+.env
+secrets.toml
 .streamlit/secrets.toml
 
 # IDE
@@ -16,7 +19,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Virtual Environment
+# Virtual environments
 venv/
 env/
 .venv/

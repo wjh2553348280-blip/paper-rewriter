@@ -1,17 +1,17 @@
 # Paper Rewriter
 
-AI 辅助学术写作与论文改写工具，基于 Python 和 Streamlit 构建。
+> This repository is the primary maintained version of the paper-rewriter experiments.
 
-> 这是该系列项目的主维护仓库。`paper-rewriter-2` 与 `paper-rewriter-3` 为历史实验版本，仅供参考。
+An AI-assisted academic writing and paper rewriting tool built with Python and Streamlit.
 
-## 项目结构
+## Project files
 
-- `app.py`：Streamlit 应用入口
-- `ai_rewriter.py`：改写核心逻辑
-- `prompts.py`：提示词定义
-- `requirements.txt`：Python 依赖
+- `app.py` — Streamlit application
+- `ai_rewriter.py` — rewriting implementation
+- `prompts.py` — prompt definitions
+- `requirements.txt` — Python dependencies
 
-## 本地运行
+## Run locally
 
 ```bash
 python -m venv .venv
@@ -20,4 +20,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-请在本地配置凭据，切勿提交 API 密钥或其他敏感信息。
+Configure credentials locally. Never commit `secrets.toml` or API keys.

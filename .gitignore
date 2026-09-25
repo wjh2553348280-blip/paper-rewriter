@@ -1,15 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
 *.egg-info/
 dist/
 build/
 
 # Secrets and local configuration
-.env
-secrets.toml
 .streamlit/secrets.toml
+secrets.toml
+.env
 
 # IDE
 .vscode/
